@@ -1,0 +1,124 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    color: #f5f5f5;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header y Navegación */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #181818; /* Más oscuro */
+    padding: 10px 20px;
+    border-bottom: 2px solid #222;
+}
+
+.logo a {
+    font-size: 1.5em;
+    color: #d9534f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    margin: 0 10px;
+    font-size: 1em;
+    color: #bbb;
+}
+
+.navbar a:hover {
+    color: #d9534f;
+    text-decoration: underline;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 30px;
+    background: #0f0f0f; /* Encabezado aún más oscuro */
+    border-bottom: 2px solid #222;
+}
+
+header h1 {
+    font-size: 3em; /* Tamaño más grande */
+    color: #ffffff; /* Color blanco puro para mejor contraste */
+    margin: 0;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para destacar */
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #bbb;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #181818; /* Más oscuro para armonizar */
+    color: #bbb;
+    border-top: 2px solid #222;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+}
